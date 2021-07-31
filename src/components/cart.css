@@ -1,0 +1,21 @@
+.cart-page  .cart-page-container{
+    min-height: 20px;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.cart-page h3 {
+    background: rgb(188,81,158);
+    background: linear-gradient(90deg, rgba(188,81,158,1) 25%, rgba(188,81,158,1) 34%, rgba(128,91,165,1) 74%, rgba(73,32,94,1) 100%);
+    padding: 69px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.cart-page .product-container {
+    flex: 2;
+}
+
+.cart-page .total-container{
+    flex: 1;
+}

@@ -1,0 +1,32 @@
+.quantity-picker h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+.quantity-picker button {
+    width: 2rem;
+    height: 2rem;
+}
+
+.quantity-picker .value {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.quantity-picker .btn{
+    border-radius: 35px;
+    padding: 3px 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(206, 206, 206);
+}
+.quantity-picker .btn:hover{
+    border-color: var( --aux-light);
+    color: white;
+    background-color: var(--aux-light);
+}
+
+.quantity-picker .btn-minus{
+    padding: 3px 10px;
+}

@@ -1,0 +1,50 @@
+.contact-page {
+   padding-bottom: 60px;
+}
+
+.contact-page h1{
+    background: rgb(188,81,158);
+    background: linear-gradient(90deg, rgba(188,81,158,1) 25%, rgba(188,81,158,1) 34%, rgba(128,91,165,1) 74%, rgba(73,32,94,1) 100%);
+    padding: 69px;
+    color: white;
+    font-size: 1.6rem;
+}
+ 
+.contact-page .capture-form{
+    width: 360px;
+    padding: 20px 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    background-color: var(--primary-light);
+    margin: auto;
+}
+
+.contact-page .my-control {
+    margin-bottom: 12px;
+}
+
+.contact-page .my-control label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 7px;
+}
+
+.contact-page .my-control input{
+    display: inline-block;
+    width: 230px;
+}
+
+.contact-page .btn{
+    display: inline-block;
+    margin: .5rem;
+    background-color: var(--secondary-light);
+    color: white;
+    border: none;
+    box-shadow: 5px 10px 30px var(--secondary-light);
+ }
+
+ .contact-page .btn:hover{
+    color: white;
+    background-color: var(--aux-light);   
+ }

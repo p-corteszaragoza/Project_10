@@ -1,0 +1,38 @@
+.catalog-container .btn-add:hover{
+    color: white;
+    background-color: var(--aux-light);   
+ }
+ 
+.catalog-container .btn-add{
+    display: inline-block;
+    margin: .5rem;
+    background-color: var(--secondary-light);
+    color: white;
+    border: none;
+    box-shadow: 5px 10px 30px var(--secondary-light);
+ }
+
+ .catalog-container .filter-buttons{
+    margin: 2rem;
+ }
+
+ .catalog-container h3 {
+    background: rgb(188,81,158);
+    background: linear-gradient(90deg, rgba(188,81,158,1) 25%, rgba(188,81,158,1) 34%, rgba(128,91,165,1) 74%, rgba(73,32,94,1) 100%);
+    padding: 69px;
+    color: white;
+    font-size: 1.6rem;
+}
+ 
+@media(min-width:768px){
+    .catalog-container h3{
+        font-size: 2.2rem;
+    }
+    .catalog-container .btn-add{
+        margin: 0;
+        margin-left:  25px;
+    }
+    .catalog-container .filter-buttons{
+        margin: 3rem;
+     }
+}

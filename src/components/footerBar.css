@@ -1,0 +1,18 @@
+.footerbar-page {
+    background-color: black;
+    padding: 5rem;
+    display: flex;
+}
+
+.footerbar-page .text-footer {	
+    font-size: 1rem;
+    color: #999;
+}
+
+@media(min-width:768px){
+    .footerbar-page .text-footer {	
+        font-size: 1.3rem;
+        letter-spacing: .2px;
+        line-height: 1.25;
+    }
+}

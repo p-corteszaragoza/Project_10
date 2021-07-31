@@ -1,0 +1,32 @@
+.item-in-cart-bar {
+   display: flex;
+   height: 190px;
+   border: 1px solid #eaeaea;
+   border-radius: 6px;
+   background-color: #805ba58f;
+   margin: 20px;
+  /* margin-top: 20px;
+   margin-bottom: 20px;*/
+}
+
+.item-in-cart-bar img {
+   width: 146px;
+   height: 168px;
+   margin: .5rem 1rem;
+}
+
+.item-in-cart-bar .item-info {
+   padding: 32px;
+}
+.item-in-cart-bar h2{
+   font-size: 24px;
+}
+
+.item-in-cart-bar .btn-sm{
+   margin: 75px 20px;
+}
+
+.item-in-cart-bar label {
+   text-align: center;
+   margin: 46px 34px;
+}

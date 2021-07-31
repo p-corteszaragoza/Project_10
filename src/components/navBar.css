@@ -1,0 +1,21 @@
+.navbar-page {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+
+.navbar-page li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+   
+.navbar-page  li a:hover {
+  background-color: var(--secondary-light);
+}
+
+.navbar-page .active { 
+    background-color: var(--secondary-light);
+}
+
